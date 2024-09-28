@@ -17,7 +17,7 @@ const Task = ({ job: { id, task, isDone }, removeTask, doneTask }) => {
       </div>
       <button
         onClick={handleRemoveTask}
-        className="bg-red-100 text-red-700 border-2 border-red-300 py-2 px-4 rounded-lg"
+        className="bg-red-100 text-red-700 border-2 border-red-200 py-2 px-4 rounded-lg"
       >
         Delete
       </button>
